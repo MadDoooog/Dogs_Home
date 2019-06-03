@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://47.106.22.200:3306/mingrisoft?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 0494556a6968
+    driverClassName: com.mysql.cj.jdbc.Driver #原先的dirver已经被弃用，使用时会报错
+    # Advanced configuration...
+    tomcat:
+      max-active: 50
+      max-idle: 6
+      min-idle: 2
+      initial-size: 6
+  #create table
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: utf-8
