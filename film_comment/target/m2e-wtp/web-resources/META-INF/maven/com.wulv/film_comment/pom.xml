@@ -18,7 +18,7 @@
 	<mysql-connector-java>5.1.32</mysql-connector-java>
 	<druid>1.1.12</druid>
 	<log4j>1.2.17</log4j>
-	<jackson-databind>2.9.8</jackson-databind>
+	<jackson-databind>2.9.10.7</jackson-databind>
 	<maven-resources-plugin>3.1.0</maven-resources-plugin>
 	<maven-compiler-plugin>3.8.0</maven-compiler-plugin>
   </properties>
