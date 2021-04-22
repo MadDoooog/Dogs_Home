@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <mybatis>3.5.0</mybatis>
+    <mybatis>3.5.6</mybatis>
 	<mybatis-spring>2.0.0</mybatis-spring>
 	<spring>4.3.6.RELEASE</spring>
 	<mysql-connector-java>5.1.32</mysql-connector-java>
